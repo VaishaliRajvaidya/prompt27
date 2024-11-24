@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.checkout-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 680px;
+margin-top: 80px;
+    border-radius: 8px;
+}
+
+.checkout-container > h1 {
+
+    text-align: center;
+    color: #333;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 700px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-wrap: wrap;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
